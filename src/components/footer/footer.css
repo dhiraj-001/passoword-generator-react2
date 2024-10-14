@@ -1,0 +1,119 @@
+/* body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 36px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  color: #999;
+}
+.ct-p1{
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Oswald;
+}
+.location{
+  display: flex;
+ gap: 7px;
+  flex-direction: row;
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  width: 50%;
+  justify-content: center;
+
+}
+
+.line{
+  background-color: #6a6969;
+    width: 4px;
+    width: 99%;
+    height: 1px;
+}
+
+.container2{
+  display: flex;
+
+}
+
+.copyright{
+  width: 50%;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+ .container1{
+  flex-direction: column;
+  gap: 41px;
+  padding: 0;
+ }
+.container2{
+  flex-direction: column;
+  align-items: center;
+}
+.copyright{
+  width: 100%;
+  font-family: 'Playwrite Deutschland Grundschrift';
+}
+}

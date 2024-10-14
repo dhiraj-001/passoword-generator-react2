@@ -1,0 +1,158 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  box-shadow: 3px 3px 7px 0px #aaab4c;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  margin-bottom: 42vh;
+  margin-top: 51vh;
+}
+
+.password-history {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* .password-generator {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+} */
+
+.password-generator h1 {
+  color: #dada06c9;
+  text-transform: uppercase;
+}
+
+.close-circle-outline{
+  color:wheat ;
+  background-color: #f4f600;
+}
+
+.password-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#generated-password {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 250px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.copy-button {
+  background-color: #d1d118;
+  color: #111;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.settings label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+  color: #f4f600;
+}
+
+.slider input {
+  width: 100%;
+}
+
+/* .password-history {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+} */
+
+.password-history h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.password-history ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.password-history li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  align-items: center;
+
+}
+
+.password-history li input {
+  margin-left: 10px;
+}
+
+.clear-history {
+  background-color: #d1d118;
+  color: #111;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.delete{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(177, 22, 22);
+}
+
+.delete:hover{
+  color: red;
+  box-shadow: 0px 0px 10px 0px white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: center;
+    margin-bottom: 17vh;
+  }
+
+  .password-generator{
+    display: flex;
+    flex-direction: column;
+  }
+  .password-box{
+    flex-direction: column;
+  }
+}

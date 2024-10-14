@@ -1,0 +1,6 @@
+.body{
+  display:flex ;
+  gap: 44px;
+  align-items: center;
+  flex-direction: column;
+}
